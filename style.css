@@ -52,7 +52,10 @@ header nav ul .signin {
 	padding: 7px 15px;
 	text-decoration: none;
 }
-
+.apps {
+	padding: 0;
+	width: 15px;
+}
 /********************** HEADER END */
 /* GOOGLE SEARCH
 *******************/
