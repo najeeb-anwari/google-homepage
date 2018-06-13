@@ -1,0 +1,169 @@
+/* FONTS
+*******************/
+@font-face {
+	font-family: "Akronim";
+	src: url('fonts/Akronim/Akronim-Regular.ttf') format('truetype');
+}
+/********************** FONTS END */
+
+/* NORMALIZATION
+*******************/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+ul , li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+/********************** NORMALIZATION END */
+
+/* MAIN HEADER
+*******************/
+header {
+	position: fixed;
+	width: 100%;
+}
+header nav {
+	float: right;
+	padding: 20px;
+}
+header nav a {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	margin: 10px;
+	color: rgba(0,0,0,0.87);
+}
+header nav a:visited {
+	color: rgba(0,0,0,0.87);
+}
+header nav a:hover {
+	text-decoration: underline;
+}
+header nav ul .signin {
+	background-color: #4285f4;
+	font-weight: bold;
+	color: white;
+	padding: 7px 15px;
+	text-decoration: none;
+}
+
+/********************** HEADER END */
+/* GOOGLE SEARCH
+*******************/
+
+/** Center the Google Search **/
+main {
+	
+	width: 60%;
+	height: 100%;
+	display: table;
+	margin: 0 auto;
+}
+.container {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/** Google Search Header **/
+.google {
+	font-family: Akronim;
+	font-size: 6em;
+	margin-bottom: 1rem;
+}
+/*** Google Search Header
+	 letter styles ***/
+.blue { color:#4285f4; }
+.red { color:#ea4335; }
+.orange { color:#fbbc05; }
+.green { color:#34a853; }
+
+/** Search input style **/
+#search_input {
+	border: none;
+	margin-bottom: 30px;
+	width: 65%;
+	padding: 1em;
+	box-shadow: 0px 2px 10px 0.1px lightgray;
+}
+
+/** Search options styles **/
+.option li a {
+	padding: 10px;
+	background-color: #f4f4f4;
+	color: #757575;
+	border-radius: 3px;
+	margin: 2px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+.option li a:hover { 
+	border: 1px solid lightgray;
+	color: black;
+}
+/** Languages Offered **/
+.languages {
+	margin-top: 30px;
+	font-size: 0.9em;
+	text-align: center;
+}
+.languages a { margin-right: 5px; }
+.languages a:hover {
+	text-decoration: underline;
+}
+
+/********************** GOOGLE SEARCH END */
+
+/* MAIN FOOTER
+*******************/
+/** Sticky Footer **/
+
+.wrap { height: calc(100vh - 80.8px); }
+
+footer {
+	font-family: arial,sans-serif;
+	width: 100%;
+	color: #757575;
+	position: fixed;
+	background: #f2f2f2;
+	bottom: 0px;
+	padding: 5px;
+	
+}
+
+footer a {
+	color: #757575;
+	padding: 10px;
+	font-size: 13px;
+}
+footer a:visited {
+	color: #757575;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+/** USER LOCATION **/
+.location {
+	width: 100%;
+	padding: 10px;
+	padding-left: 15px;
+	border-bottom: 1px solid lightgray;
+}
+.links_group1 {
+	float: left;
+	margin: 5px;
+	margin-left: 5px;
+}
+.links_group2 {
+	float: right;
+	margin: 5px;
+}
+
+/********************** FOOTER END */
