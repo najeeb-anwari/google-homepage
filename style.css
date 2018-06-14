@@ -86,8 +86,7 @@ main {
 .green { color:#34a853; }
 
 /** Search input style **/
-#search_input {
-	background-image: 
+#search_input { 
 	border: none;
 	margin-bottom: 30px;
 	width: 65%;
